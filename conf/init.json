@@ -1,0 +1,24 @@
+{
+	"team1": {
+		"numberOfPlayers": 3,
+		"color": "blue",
+		"playersDimensions": [7, 7, 7],
+		"playersWeight": 500
+	},
+	"team2": {
+		"numberOfPlayers": 3,
+		"color": "red",
+		"playersDimensions": [7, 7, 7],
+		"playersWeight": 500
+	},
+	"field": {
+		"width": 150,
+		"height": 130,
+		"cornerTriangles": 7,
+		"goalSize": 40
+	},
+	"ball": {
+		"diameter": 4.27,
+		"weight": 46
+	}
+}

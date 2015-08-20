@@ -1,0 +1,9 @@
+ERROR:root:Expecting property name enclosed in double quotes: line 4 column 20 (char 57)
+ERROR:root:Error when loading conf/init.json
+ERROR:root:Expecting property name enclosed in double quotes: line 4 column 20 (char 57)
+ERROR:root:Error when loading conf/init.json
+ERROR:root:Expecting property name enclosed in double quotes: line 4 column 3 (char 40)
+ERROR:root:Error when loading conf/init.json
+ERROR:root:Expecting property name enclosed in double quotes: line 4 column 19 (char 56)
+ERROR:root:Error when loading conf/init.json
+ERROR:root:Expecting property name enclosed in double quotes: line 4 column 19 (char 56)
