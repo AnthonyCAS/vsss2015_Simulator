@@ -9,8 +9,8 @@ CMD_TYPE_VEL = 'velocidad'
 CMD_TYPE_POW = 'potencia'
 
 RT_CMD = CMD_TYPE_VEL
-BT_CMD = CMD_TYPE_POW
+BT_CMD = CMD_TYPE_VEL
 
 # Set the number of players
-RT = 3
-BT = 3
+RT = 2
+BT = 2
