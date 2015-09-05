@@ -12,5 +12,5 @@ RT_CMD = CMD_TYPE_VEL
 BT_CMD = CMD_TYPE_VEL
 
 # Set the number of players
-RT = 2
-BT = 2
+RT = 3
+BT = 3

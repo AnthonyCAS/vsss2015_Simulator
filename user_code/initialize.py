@@ -2,6 +2,7 @@ def reset_red_team(red_team):
     red_team_positions = [
         [10, -10, 3.5],
         [10, 10, 3.5],
+	[10, 0, 3.5],
     ]
 
     for robot, pos in zip(red_team, red_team_positions):
@@ -16,6 +17,7 @@ def reset_blue_team(blue_team):
     blue_team_positions = [
         [-10, 10, 3.5],
         [-10, -10, 3.5],
+	[-10, 0, 3.5],
     ]
 
     for robot, pos in zip(blue_team, blue_team_positions):
