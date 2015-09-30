@@ -12,5 +12,19 @@ RT_CMD = CMD_TYPE_VEL
 BT_CMD = CMD_TYPE_VEL
 
 # Set the number of players
-RT = 3
-BT = 3
+RT = 1
+BT = 1
+
+red_team_positions = [
+    # [10, -10],
+    # [10, 10],
+    [10, 0],
+]
+
+blue_team_positions = [
+    # [-10, 10],
+    # [-10, -10],
+    [-10, 0],
+]
+
+ball_position = [0, 0]
