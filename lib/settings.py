@@ -28,3 +28,5 @@ blue_team_positions = [
 ]
 
 ball_position = [0, 0]
+
+SERVER = ('0.0.0.0', 9001)
