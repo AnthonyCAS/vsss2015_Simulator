@@ -34,3 +34,4 @@ STRATEGY_SERVERS = [('0.0.0.0', 9002)]
 VISION_LATENCY = 50             # milliseconds
 VISION_ACCURACY = 1
 VISION_ANGLE_ACCURACY = 1
+VISION_LOSE_RATE = 0.1  # percentaje
