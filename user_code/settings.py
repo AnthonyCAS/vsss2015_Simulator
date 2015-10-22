@@ -24,6 +24,9 @@ blue_team_orientations = [
     [1, 0, 0]
 ]
 
-ball_position = [0, 50]
+ball_position = [0, -35]
 
-SERVER = ('0.0.0.0', 9001)
+THIS_SERVER = ('0.0.0.0', 9001)
+STRATEGY_SERVERS = [('0.0.0.0', 9002)]
+
+VISION_LATENCY = 50            # milliseconds
