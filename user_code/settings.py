@@ -30,10 +30,12 @@ blue_team_orientations = [
 
 ball_position = [0, 0]
 
-THIS_SERVER = ('0.0.0.0', 9001)
-STRATEGY_SERVERS = [('0.0.0.0', 9002)]
+THIS_SERVER = ('0.0.0.0', 9003)
+STRATEGY_SERVERS = [('0.0.0.0', 9002),
+                    ('0.0.0.0', 9004)]
 
-VISION_LATENCY = 100           # milliseconds
-VISION_ACCURACY = 0.5
-VISION_ANGLE_ACCURACY = 2
-VISION_LOSE_RATE = 0.01  # percentaje
+
+VISION_LATENCY = 0           # milliseconds
+VISION_ACCURACY = 0.0   # error in cm
+VISION_ANGLE_ACCURACY = 0.0     # error in degrees
+VISION_LOSE_RATE = 0.0  # percentaje
