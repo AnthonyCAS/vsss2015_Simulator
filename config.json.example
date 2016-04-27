@@ -1,0 +1,29 @@
+{
+    "RT": 2,
+    "BT": 2,
+    "red_team_positions":[
+        [10, -10],
+        [10, 10]
+    ],
+    "red_team_orientations": [
+        [-1, 0, 0],
+        [-1, 0, 0]
+    ],
+    "blue_team_positions":[
+        [-10, 10],
+        [-10, -10]
+    ],
+    "blue_team_orientations": [
+        [1, 0, 0],
+        [1, 0, 0]
+    ],
+    "ball_position": [0, 0],
+
+    "SERVER_IP": "0.0.0.0",
+    "SERVER_PORT": 9009,
+
+    "VISION_LATENCY": 50,
+    "VISION_ACCURACY": 1,
+    "VISION_ANGLE_ACCURACY": 1,
+    "VISION_LOSE_RATE": 0.1
+}
