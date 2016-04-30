@@ -19,8 +19,8 @@
     ],
     "ball_position": [0, 0],
 
-    "SERVER_IP": "0.0.0.0",
-    "SERVER_PORT": 9009,
+    "SERVER": "('0.0.0.0', 9009)",
+    "LISTENERS": ["('0.0.0.0', 9010)", "('0.0.0.0', 9011)"],
 
     "VISION_LATENCY": 50,
     "VISION_ACCURACY": 1,
