@@ -18,3 +18,40 @@
 1. En $HOME_DIR crear una carpeta ".vsss_simulator"
 2. Dentro de ".vsss_simulator" crear un archivo "config.json" que contenga la configuracion deseada
 3. Un ejemplo de este archivo se encuentra en el repositorio con el nombre "config.jason.example"
+
+## Comunication
+
+* Server sends:
+
+{
+    "see": {
+        "red_team": [
+            [<x>, <y>, <theta>],
+            [<x>, <y>, <theta>]
+        ],
+        "blue_team": [
+            [<x>, <y>, <theta>],
+            [<x>, <y>, <theta>]
+        ],
+        "ball": [<x>, <y>]
+    }
+}
+
+* Server receive:
+
+{
+    "add_listener": {}
+
+{
+    "rm_listener": {}
+}
+
+{
+    "move": {
+        "red":[
+            [<lin_vel>, <ang_vel>],
+            [<lin_vel>, <ang_vel>]
+        ]
+    }
+}
+
