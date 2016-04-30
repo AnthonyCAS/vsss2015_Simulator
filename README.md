@@ -13,7 +13,7 @@
 3. Escoger una carpeta (de preferencia vacia) donde guardar el ejecutable
 
 
-## Configuracion
+## Configuracion (no es necesario)
 
 1. En $HOME_DIR crear una carpeta ".vsss_simulator"
 2. Dentro de ".vsss_simulator" crear un archivo "config.json" que contenga la configuracion deseada
